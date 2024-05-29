@@ -19,6 +19,7 @@ object Scala_Variable {
 
     println(myFirstVal)
     println("************* 1 *************")
+
     /* printf():文字格式化输出，同其他语言printf() */
     printf("myFirstVar: %s\n myFirstVal: %s\n",myFirstVar,myFirstVal)
     printf("myIntVar in decimal: %d\n myIntVar in Hex: %X\n myIntVar in hex: %x\n",myIntVar,myIntVar,myIntVar)
@@ -47,8 +48,7 @@ object Scala_Variable {
     println(aint,bint)
     println(aint+"\t"+bint)
     println("************* 4 *************")
-
-    /* 我们可以使用 val 来声明一个元组： */
+   /* 我们可以使用 val 来声明一个元组： */
     val tup_1 : (Int,String) = (200,"Spark!")
     println(tup_1)
   }
