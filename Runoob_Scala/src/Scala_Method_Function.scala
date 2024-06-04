@@ -45,5 +45,4 @@ object Scala_Method_Function {
     print("\n")
   }
 
-
 }
