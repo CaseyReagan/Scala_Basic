@@ -45,6 +45,7 @@ object Scala_List {
     println(lst1.head)
     println(lst1.tail)
   }
+
   /* List 和 Array 对比
   * 相同点长度不可变，但Array内容可变，List内容不可变
   *  */
@@ -102,7 +103,5 @@ object Scala_List {
     println("************* 2 *************")
     listBufferTestOne(null)
     print("\n")
-    
   }
-
 }
